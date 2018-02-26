@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/modules.css">
+  <title>UI Challenge 2</title>
+</head>
+<body>
+  <form>
+    <label for="placeholder">text input</label>
+    <input type="text" id="placeholder" placeholder="placeholder text" required>
+
+    <!-- <label for="placeholder">text input w/ validation error</label>
+    <input id="validator" type="text" placeholder="placeholder text" required> -->
+    
+    <div class="dropdown">select box
+    <input type="dropdown" name="dropdown_menu" placeholder="please select an option...">
+      <div class="dropdown-content">
+        <li>option 1</li>
+        <li>option 2</li>
+        <li>option 3</li>
+        <li>option 4</li>
+        <li>option 5</li>
+      </div>
+    </div>
+
+    <p>checkbox</p>
+    <input type="checkbox" id="checkbox1" name="checkbox">
+    <label for="checkbox1" class="clickable"></label>
+
+    <p>radio</p>
+    <input id="radio1" name="radiobox" type="radio">
+    <label for="radio1" class="clickable"></label>
+
+    <p>button</p>
+    <button>submit</button>
+  </form>
+</body>
+</html>

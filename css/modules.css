@@ -1,0 +1,68 @@
+/* Input Buttons */
+
+#placeholder[type="text"]:required:valid {
+  border: 1px solid black;
+}
+
+#placeholder[type="text"]:invalid {
+  border: 1px solid red;
+}
+
+.dropdown input {
+  width: 100%;
+  height: 30px;
+  margin: 10px 0px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 480px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  text-decoration: none;
+  list-style: none;
+}
+
+.dropdown:hover .dropdown-content li {
+  padding: 8px 10px;
+}
+
+/* Checkbox & Radio Buttons */
+
+input[type=checkbox] {
+  display: none;
+}
+
+input[type=radio] {
+  display: none;
+}
+
+input[type=checkbox]:not(:checked) + label{
+  background-image: url("../form-elements-sprite.png");
+  background-position: -157px -239px;
+}
+
+#checkbox1:checked + label{
+  background-image: url("../form-elements-sprite.png");
+  background-position: -380px -239px;
+}
+
+input[type=radio]:not(:checked) + label {
+  background-image: url("../form-elements-sprite.png");
+  background-position: -583px -242px;
+}
+
+#radio1:checked + label {
+  background-image: url("../form-elements-sprite.png");
+  background-position: -814px -242px;;
+}
+
+button:hover {
+  color: white;
+  background-color: #333;
+}
