@@ -1,0 +1,35 @@
+#placeholder {
+  width: 100%;
+  height: 30px;
+  margin: 10px 0px 40px 0px;
+}
+
+#validator {
+  width: 100%;
+  height: 30px;
+  margin: 10px 0px 40px 0px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 480px;
+}
+
+.clickable {
+  transform: scale(.25);
+  width: 167px;
+  height: 167px;
+  right: 13%;
+  bottom: 60px;
+  position:relative;
+  display: block;
+}
+
+button {
+  background-color: rgb(238, 238, 238);
+  height: 45px;
+  width: 100px;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+}
